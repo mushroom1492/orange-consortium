@@ -40,7 +40,7 @@ function App() {
               <div>
                 <h3 className="text-lg font-bold">Received an invite?</h3>
                 <p className="text-sm opacity-90 text-orange-800">
-                  Click the button to download your official invitation letter.
+                  Click the button to download your official invitation letter.a
                 </p>
               </div>
             </div>
