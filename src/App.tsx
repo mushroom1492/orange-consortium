@@ -9,7 +9,7 @@ function App() {
             ORANGE CONSORTIUM
           </h1>
           <p className="text-sm md:text-xl tracking-wide text-orange-700 font-semibold">
-            Building Africa's Technology Future
+            Building Africa's Technology Future.
           </p>
         </div>
       </header>
@@ -40,7 +40,7 @@ function App() {
               <div>
                 <h3 className="text-lg font-bold">Received an invite?</h3>
                 <p className="text-sm opacity-90 text-orange-800">
-                  Click the button to download your official invitation letter.a
+                  Click the button to download your official invitation letter.
                 </p>
               </div>
             </div>
