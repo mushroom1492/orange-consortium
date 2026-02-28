@@ -6,7 +6,7 @@ function App() {
       <header className="fixed top-0 left-0 right-0 z-50 border-b-4 border-orange-500 h-16 md:h-20 bg-gradient-to-r from-orange-50 to-amber-50">
         <div className="max-w-6xl mx-auto px-4 md:px-6 h-full flex flex-col justify-center">
           <h1 className="text-2xl md:text-5xl font-bold tracking-tight mb-0 md:mb-2 bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
-            ORANGE CONSORTIUM
+            ORANGE CONSORTIUM.
           </h1>
           <p className="text-sm md:text-xl tracking-wide text-orange-700 font-semibold">
             Building Africa's Technology Future.
@@ -55,6 +55,56 @@ function App() {
           </div>
         </section>
 
+        <section className="mb-16 pb-16 border-b-2 border-emerald-200">
+          <h2 className="text-3xl font-bold mb-8 uppercase tracking-wide bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
+            Get Involved
+          </h2>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <div className="border-4 border-rose-300 p-6 hover:bg-gradient-to-br hover:from-rose-500 hover:to-rose-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-rose-50">
+              <TrendingUp className="w-12 h-12 mb-4 text-rose-600" />
+              <h3 className="text-xl font-bold mb-4 uppercase text-rose-700">
+                For Investors
+              </h3>
+              <p className="mb-4 text-sm leading-relaxed">
+                Are you an investor interested in our work? For $3000/quarter
+                you can join our insider society network with access to an
+                exclusive investor community, real-time industry reports and
+                newsletters.
+              </p>
+              <p className="font-bold text-sm">
+                Investable startups, science projects and research are
+                constantly curated, vetted and pitched at your deck, for you to
+                pick the ones you would love to bet your money on.
+              </p>
+            </div>
+
+            <div className="border-4 border-emerald-300 p-6 hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-emerald-50">
+              <Briefcase className="w-12 h-12 mb-4 text-emerald-600" />
+              <h3 className="text-xl font-bold mb-4 uppercase text-emerald-700">
+                For Startups
+              </h3>
+              <p className="mb-4 text-sm leading-relaxed">
+                Are you a startup? Are you looking for a co-founder? Are you
+                looking to get funding?
+              </p>
+              <p className="font-bold text-lg">APPLY TO OUR INCUBATOR</p>
+            </div>
+
+            <div className="border-4 border-blue-300 p-6 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-blue-50">
+              <Users className="w-12 h-12 mb-4 text-blue-600" />
+              <h3 className="text-xl font-bold mb-4 uppercase text-blue-700">
+                For Institutions
+              </h3>
+              <p className="mb-4 text-sm leading-relaxed">
+                Are you an institution looking to access some of our market
+                research?
+              </p>
+              <p className="font-bold text-lg">CONTACT US BELOW</p>
+            </div>
+          </div>
+        </section>
+
         {/* Success Stories Section */}
         <section className="mb-16 pb-16 border-b-2 border-purple-200 bg-gradient-to-r from-purple-50 to-pink-50 p-8 rounded-lg">
           <h2 className="text-3xl font-bold mb-6 uppercase tracking-wide bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
@@ -91,54 +141,6 @@ function App() {
           </div>
         </section>
 
-        <section className="mb-16 pb-16 border-b-2 border-emerald-200">
-          <h2 className="text-3xl font-bold mb-8 uppercase tracking-wide bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
-            Get Involved
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="border-4 border-emerald-300 p-6 hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-emerald-50">
-              <Briefcase className="w-12 h-12 mb-4 text-emerald-600" />
-              <h3 className="text-xl font-bold mb-4 uppercase text-emerald-700">
-                For Startups
-              </h3>
-              <p className="mb-4 text-sm leading-relaxed">
-                Are you a startup? Are you looking for a co-founder? Are you
-                looking to get funding?
-              </p>
-              <p className="font-bold text-lg">APPLY TO OUR INCUBATOR</p>
-            </div>
-
-            <div className="border-4 border-blue-300 p-6 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-blue-50">
-              <Users className="w-12 h-12 mb-4 text-blue-600" />
-              <h3 className="text-xl font-bold mb-4 uppercase text-blue-700">
-                For Institutions
-              </h3>
-              <p className="mb-4 text-sm leading-relaxed">
-                Are you an institution looking to access some of our market
-                research?
-              </p>
-              <p className="font-bold text-lg">CONTACT US BELOW</p>
-            </div>
-
-            <div className="border-4 border-rose-300 p-6 hover:bg-gradient-to-br hover:from-rose-500 hover:to-rose-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-rose-50">
-              <TrendingUp className="w-12 h-12 mb-4 text-rose-600" />
-              <h3 className="text-xl font-bold mb-4 uppercase text-rose-700">
-                For Investors
-              </h3>
-              <p className="mb-4 text-sm leading-relaxed">
-                Are you an investor interested in our work? For $3000/quarter
-                you can join our insider society network with access to an
-                exclusive investor community, real-time industry reports and
-                newsletters.
-              </p>
-              <p className="font-bold text-sm">
-                Investable startups, science projects and research are
-                constantly curated, vetted and pitched at your deck, for you to
-                pick the ones you would love to bet your money on.
-              </p>
-            </div>
-          </div>
-        </section>
         {/* 
         <section className="mb-16 pb-16 border-b-2 border-orange-200">
           <h2 className="text-3xl font-bold mb-8 uppercase tracking-wide bg-gradient-to-r from-orange-600 to-amber-600 bg-clip-text text-transparent">
