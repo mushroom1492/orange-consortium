@@ -87,9 +87,12 @@ function App() {
               </h3>
               <p className="mb-4 text-sm leading-relaxed">
                 Are you a startup? Are you looking for a co-founder? Are you
-                looking to get funding?
+                looking for funding?
               </p>
-              <p className="font-bold text-lg">APPLY TO OUR INCUBATOR</p>
+              <p className="font-bold text-lg">
+                APPLY TO OUR INCUBATOR, financial statements and project details
+                should be available for review
+              </p>
             </div>
 
             <div className="border-4 border-blue-300 p-6 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-blue-50">
