@@ -69,13 +69,14 @@ function App() {
               <p className="mb-4 text-sm leading-relaxed">
                 Are you an investor interested in our work? For $3000/quarter
                 you can join our insider society network with access to an
-                exclusive investor community, real-time industry reports and
-                newsletters.
+                exclusive investor community, real-time industry reports,
+                dashboards and newsletters.
               </p>
               <p className="font-bold text-sm">
-                Investable startups, science projects and research are
-                constantly curated, vetted and pitched at your deck, for you to
-                pick the ones you would love to bet your money on.
+                Investable startups, tech comapnies, science projects and
+                research are constantly curated, vetted, advised on and pitched
+                at your deck, for you to pick and choose what you love to bet
+                your money on.
               </p>
             </div>
 
