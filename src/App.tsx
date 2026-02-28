@@ -1,6 +1,24 @@
 import { Briefcase, Users, TrendingUp, Mail, Download } from "lucide-react";
 
 function App() {
+  const handleDownloadAll = () => {
+    const files = [
+      { path: "/invitations/invitation3.pdf", name: "invitation.pdf" },
+      { path: "/invitations/invitation (2).pdf", name: "invitation (2).pdf" },
+    ];
+
+    files.forEach((file, index) => {
+      setTimeout(() => {
+        const link = document.createElement("a");
+        link.href = file.path;
+        link.download = file.name;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }, index * 300);
+    });
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-black">
       <header className="fixed top-0 left-0 right-0 z-50 border-b-4 border-orange-500 h-16 md:h-20 bg-gradient-to-r from-orange-50 to-amber-50">
@@ -44,14 +62,13 @@ function App() {
                 </p>
               </div>
             </div>
-            <a
-              href="/invitations/invitation3.pdf"
-              download="invitation.pdf"
-              className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg active:transform active:scale-95"
+            <button
+              onClick={handleDownloadAll}
+              className="flex items-center gap-2 bg-orange-600 hover:bg-orange-700 text-white font-bold py-3 px-6 rounded-lg transition-all duration-300 shadow-md hover:shadow-lg active:transform active:scale-95 cursor-pointer"
             >
               <Download className="w-5 h-5" />
-              Download Invitation Letter
-            </a>
+              Download Invitation Letters
+            </button>
           </div>
         </section>
 
