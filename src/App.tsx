@@ -27,7 +27,7 @@ function App() {
             ORANGE CONSORTIUM.
           </h1>
           <p className="text-sm md:text-xl tracking-wide text-orange-700 font-semibold">
-            Building Africa's Technology Future.
+            Defending Africa's Technology Future.
           </p>
         </div>
       </header>
