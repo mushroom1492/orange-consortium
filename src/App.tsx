@@ -154,13 +154,13 @@ function App() {
               investors, and build the indigenous tech community of tomorrow.
             </p>
             <p className="text-xl font-semibold mt-8">
-              So are you an investor tired of investing in commodities,
-              agriculture, real estate and other traditional assets, are you an
-              institution that is looking for high quality market research or
-              datasets, Orange_Consortium aims to guide you with that, its sole
-              mission is to guide investors trying to bridge and diversify their
-              portfolios or re-stake their capital to scientific research,
-              technology, Engineering breakthroughs and groundbreaking
+              Are you an investor or institution seeking diversification beyond
+              traditional assets, commodities, real estate, or an institution
+              needing high-quality market research, or a founder with
+              breakthrough ideas — Orange Consortium is your launchpad,
+              Orange_Consortium aims to guide investors trying to bridge and
+              diversify their portfolios or re-stake their capital to scientific
+              research, technology, Engineering breakthroughs and groundbreaking
               manufacturing initiatives here in Southern Africa, breaking away
               from the traditional investing norms that prevailed in africa at
               the same time helping communities escape reliance on western led
