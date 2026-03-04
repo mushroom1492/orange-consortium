@@ -39,8 +39,14 @@ function App() {
             <p className="text-xs md:text-sm font-semibold text-center">
               To our donors and investors — Our services are still rapidly
               maturing so For more information please email us on one of our
-              representers at jchihowa475@gmail.com or his contact at +263 78
-              630 9860
+              representers at{" "}
+              <a
+                href="mailto:rtxproject@proton.me"
+                className="underline hover:text-orange-100 transition-colors"
+              >
+                rtxproject@proton.me
+              </a>{" "}
+              or their contact at +263 78 630 9860
             </p>
           </div>
         </div>
