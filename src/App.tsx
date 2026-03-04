@@ -78,6 +78,27 @@ function App() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
+            <div className="border-4 border-rose-300 p-6 hover:bg-gradient-to-br hover:from-rose-500 hover:to-rose-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-rose-50">
+              <TrendingUp className="w-12 h-12 mb-4 text-rose-600" />
+              <h3 className="text-xl font-bold mb-4 uppercase text-rose-700">
+                For Investors
+              </h3>
+              <p className="mb-4 text-sm leading-relaxed">
+                Are you an investor interested in our work? Are you seeking
+                diversification beyond traditional assets, commodities, real
+                estate. For <b>$3000/quarter or $11,500/year</b>, you can join
+                our insider society network with access to an exclusive investor
+                community, real-time industry reports, dashboards and
+                newsletters.
+              </p>
+              <p className="font-bold text-sm">
+                Advanced technology companies, High-potential startups,
+                early-stage scientific ventures, and frontier research
+                initiatives are systematically sourced, technically vetted, and
+                presented as structured investment opportunities — allowing you
+                to deploy capital into innovation with clarity and confidence.
+              </p>
+            </div>
             <div className="border-4 border-blue-300 p-6 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-blue-50">
               <Users className="w-12 h-12 mb-4 text-blue-600" />
               <h3 className="text-xl font-bold mb-4 uppercase text-blue-700">
@@ -92,27 +113,6 @@ function App() {
                 long-term sovereignty.
               </p>
               <p className="font-bold text-lg">CONTACT US BELOW</p>
-            </div>
-
-            <div className="border-4 border-rose-300 p-6 hover:bg-gradient-to-br hover:from-rose-500 hover:to-rose-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-rose-50">
-              <TrendingUp className="w-12 h-12 mb-4 text-rose-600" />
-              <h3 className="text-xl font-bold mb-4 uppercase text-rose-700">
-                For Investors
-              </h3>
-              <p className="mb-4 text-sm leading-relaxed">
-                Are you an investor interested in our work? Are youseeking
-                diversification beyond traditional assets, commodities, real
-                estate. For <b>$3000/quarter or $11,500/year</b>, you can join
-                our insider society network with access to an exclusive investor
-                community, real-time industry reports, dashboards and
-                newsletters.
-              </p>
-              <p className="font-bold text-sm">
-                Investable startups, tech comapnies, science projects and
-                research are constantly curated, vetted, advised on and pitched
-                at your deck, for you to pick and choose what you love to bet
-                your money on.
-              </p>
             </div>
 
             <div className="border-4 border-emerald-300 p-6 hover:bg-gradient-to-br hover:from-emerald-500 hover:to-emerald-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-emerald-50">
