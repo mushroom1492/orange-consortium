@@ -100,10 +100,12 @@ function App() {
                 For Investors
               </h3>
               <p className="mb-4 text-sm leading-relaxed">
-                Are you an investor interested in our work? For{" "}
-                <b>$3000/quarter or $11,500/year</b>, you can join our insider
-                society network with access to an exclusive investor community,
-                real-time industry reports, dashboards and newsletters.
+                Are you an investor interested in our work? Are youseeking
+                diversification beyond traditional assets, commodities, real
+                estate. For <b>$3000/quarter or $11,500/year</b>, you can join
+                our insider society network with access to an exclusive investor
+                community, real-time industry reports, dashboards and
+                newsletters.
               </p>
               <p className="font-bold text-sm">
                 Investable startups, tech comapnies, science projects and
