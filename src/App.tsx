@@ -85,7 +85,11 @@ function App() {
               </h3>
               <p className="mb-4 text-sm leading-relaxed">
                 Are you an institution looking to access some of our market
-                research?
+                research? We collaborate with universities, governments, and
+                enterprises to architect research-driven innovation systems —
+                translating mathematics, computer science, and engineering
+                breakthroughs into scalable digital infrastructure for Africa’s
+                long-term sovereignty.
               </p>
               <p className="font-bold text-lg">CONTACT US BELOW</p>
             </div>
@@ -116,7 +120,11 @@ function App() {
               </h3>
               <p className="mb-4 text-sm leading-relaxed">
                 Are you a startup? Are you looking for a co-founder? Are you
-                looking for funding?
+                looking for funding?We support founders developing foundational
+                technologies — from distributed systems and AI to biotech and
+                advanced computation — providing the intellectual capital,
+                strategic networks, and structural backing required to scale
+                deep-tech ventures across the continent.
               </p>
               <p className="font-bold text-lg">
                 APPLY TO OUR INCUBATOR, financial statements and project details
