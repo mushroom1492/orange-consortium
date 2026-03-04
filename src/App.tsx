@@ -21,7 +21,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-black">
-      <header className="fixed top-6 left-0 right-0 z-50 h-16 md:h-20 bg-gradient-to-r from-orange-50 to-amber-50 rounded-b-lg mx-4 md:mx-6 right-auto left-auto w-auto md:left-0 md:right-0 md:mx-0 md:rounded-none">
+      <header className="fixed top-0 left-0 right-0 z-[100] h-16 md:h-20 bg-gradient-to-r from-orange-50 to-amber-50 rounded-b-lg mx-4 md:mx-6 right-auto left-auto w-auto md:left-0 md:right-0 md:mx-0 md:rounded-none">
         <div className="max-w-6xl mx-auto px-4 md:px-6 h-full flex flex-col justify-center">
           <h1 className="text-2xl md:text-5xl font-bold tracking-tight mb-0 md:mb-2 bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
             ORANGE CONSORTIUM.
@@ -33,7 +33,7 @@ function App() {
       </header>
 
       {/* Thin critical announcement bar fixed under header */}
-      <div className="fixed left-0 right-0 top-28 md:top-32 z-40">
+      <div className="fixed left-0 right-0 top-16 md:top-20 z-[99]">
         <div className="max-w-6xl mx-auto px-4 md:px-6">
           <div className="bg-gradient-to-r from-orange-600 to-orange-500 text-white py-2 px-4 rounded-b shadow-md flex items-center justify-center">
             <p className="text-xs md:text-sm font-semibold text-center">
