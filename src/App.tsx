@@ -21,13 +21,13 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-black">
-      <header className="fixed top-0 left-0 right-0 z-50 border-b-4 border-orange-500 h-16 md:h-20 bg-gradient-to-r from-orange-50 to-amber-50">
+      <header className="fixed top-0 left-0 right-0 z-50 h-16 md:h-20 bg-gradient-to-r from-orange-50 to-amber-50">
         <div className="max-w-6xl mx-auto px-4 md:px-6 h-full flex flex-col justify-center">
           <h1 className="text-2xl md:text-5xl font-bold tracking-tight mb-0 md:mb-2 bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
             ORANGE CONSORTIUM.
           </h1>
           <p className="text-sm md:text-xl tracking-wide text-orange-700 font-semibold">
-            Defending Africa's Technology Future.
+            Defending Africa's Technology.
           </p>
         </div>
       </header>
@@ -78,6 +78,18 @@ function App() {
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
+            <div className="border-4 border-blue-300 p-6 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-blue-50">
+              <Users className="w-12 h-12 mb-4 text-blue-600" />
+              <h3 className="text-xl font-bold mb-4 uppercase text-blue-700">
+                For Institutions
+              </h3>
+              <p className="mb-4 text-sm leading-relaxed">
+                Are you an institution looking to access some of our market
+                research?
+              </p>
+              <p className="font-bold text-lg">CONTACT US BELOW</p>
+            </div>
+
             <div className="border-4 border-rose-300 p-6 hover:bg-gradient-to-br hover:from-rose-500 hover:to-rose-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-rose-50">
               <TrendingUp className="w-12 h-12 mb-4 text-rose-600" />
               <h3 className="text-xl font-bold mb-4 uppercase text-rose-700">
@@ -110,18 +122,6 @@ function App() {
                 APPLY TO OUR INCUBATOR, financial statements and project details
                 should be available for review
               </p>
-            </div>
-
-            <div className="border-4 border-blue-300 p-6 hover:bg-gradient-to-br hover:from-blue-500 hover:to-blue-600 hover:text-white transition-all duration-300 rounded-lg shadow-lg hover:shadow-xl bg-gradient-to-br from-white to-blue-50">
-              <Users className="w-12 h-12 mb-4 text-blue-600" />
-              <h3 className="text-xl font-bold mb-4 uppercase text-blue-700">
-                For Institutions
-              </h3>
-              <p className="mb-4 text-sm leading-relaxed">
-                Are you an institution looking to access some of our market
-                research?
-              </p>
-              <p className="font-bold text-lg">CONTACT US BELOW</p>
             </div>
           </div>
         </section>
